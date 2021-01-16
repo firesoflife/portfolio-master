@@ -1,0 +1,33 @@
+.section__title {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 4rem;
+
+  &--a {
+    margin-bottom: 1.3rem;
+    text-align: center;
+  }
+
+  &--b {
+    color: $color-grey-light;
+  }
+
+  &--bottom-line {
+    align-self: center;
+    height: 2px;
+    width: 20rem;
+    background-color: $color-primary;
+  }
+
+  &--lead {
+    display: block;
+    align-self: center;
+    max-width: 70rem;
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1.8rem;
+    color: $color-grey-light;
+  }
+}

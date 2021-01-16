@@ -1,23 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import './main.scss';
+import Header from './pages/Header/Header';
+import Navbar from './Components/Navbar/Navbar';
+import Specialties from './pages/Specialties/Specialties';
+import Projects from './pages/Projects/Projects';
+import Contact from './pages/Contact/Contact';
+import Footer from './Components/Footer/Footer';
+
+// Data File -- Projects
+import data from './data.json';
+
+import { Switch, Route } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <Switch>
+        <Route path="/home" component={Header}>
+          <Header />
+        </Route>
+        <Route path="/specialties" component={Specialties}>
+          <Specialties />
+        </Route>
+        <Route path="/projects" component={Projects}>
+          <Projects data={data.slides} leadingText={data.leadingText} />
+        </Route>
+        <Route path="/contact" component={Contact}>
+          <Contact />
+        </Route>
+      </Switch>
+      <Footer />
     </div>
   );
 }

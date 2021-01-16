@@ -1,0 +1,94 @@
+{
+  "leadingText": "Take a Look at:",
+  "slides": [
+    {
+      "introline": "Woven Collections",
+      "id": "woven",
+      "content": {
+        "heading": "Woven Collections",
+        "sub": "Shopify | e-Commerce",
+        "category": "template based design with customizations",
+        "image": "/img/woven.jpg",
+        "link": "https://wovencollections.com"
+      }
+    },
+    {
+      "introline": "the Boston Film Festival Project",
+      "id": "boston",
+      "content": {
+        "heading": "Watch it Outside, Boston Edition",
+        "sub": "HTML 5 | CSS3 Grid & Flexbox | Sass",
+        "category": "this site was built as part of my course-work in the Fullstack Developer Path for OpenClassrooms",
+        "image": "/img/Boston.jpg",
+        "copy": "Cat ipsum dolor sit amet, consectetur adipiscing elit. Morbi accumsan est ornare, ultricies erat a, dapibus lectus.",
+        "link": "/Boston/index.html"
+      }
+    },
+    {
+      "introline": "the Delta Real Estate Project",
+      "id": "delta",
+      "content": {
+        "heading": "Delta Realty",
+        "sub": "Wordpress | Custom CSS",
+        "category": "this is a wordpress theme-based project completed as part of my OpenClassrooms course-work.",
+        "image": "/img/Delta.jpg",
+        "copy": "HOrse ipsum dolor sit amet, consectetur adipiscing elit. Morbi accumsan est ornare, ultricies erat a, dapibus lectus."
+      }
+    },
+    {
+      "introline": "Nuno",
+      "id": "nuno",
+      "content": {
+        "heading": "Nuno",
+        "sub": "HTML5 | CSS3 | Bootstrap | PHP",
+        "category": "this is a code-along project designed by Drew Ryan, and coded by me under his guidance",
+        "image": "/img/Nuno.jpg",
+        "copy": "MeowBox ipsum dolor sit amet, consectetur adipiscing elit. Morbi accumsan est ornare, ultricies erat a, dapibus lectus."
+      }
+    },
+    {
+      "introline": "Omnifood",
+      "id": "omnifood",
+      "content": {
+        "heading": "Omnifood",
+        "sub": "HTML5 | CSS3 | UX/UI Design",
+        "category": "this is a code-along project designed by Jonas Schmedtmann, and coded by me, under his guidance",
+        "image": "/img/omnifood.jpg",
+        "copy": "MeowBox ipsum dolor sit amet, consectetur adipiscing elit. Morbi accumsan est ornare, ultricies erat a, dapibus lectus."
+      }
+    },
+    {
+      "introline": "Natours",
+      "id": "natours",
+      "content": {
+        "heading": "Natours",
+        "sub": "HTML5 | CSS3 | UX/UI Design",
+        "category": "this is a code-along project designed by Jonas Schmedtmann, and coded by me, under his guidance",
+        "image": "/img/natours.jpg",
+        "copy": "MeowBox ipsum dolor sit amet, consectetur adipiscing elit. Morbi accumsan est ornare, ultricies erat a, dapibus lectus."
+      }
+    },
+    {
+      "introline": "Trello",
+      "id": "trello",
+      "content": {
+        "heading": "Trello",
+        "sub": "HTML5 | CSS3 | UX/UI Design",
+        "category": "this is a code-along project designed by Jonas Schmedtmann, and coded by me, under his guidance",
+        "image": "/img/Trillo.jpg",
+        "copy": "MeowBox ipsum dolor sit amet, consectetur adipiscing elit. Morbi accumsan est ornare, ultricies erat a, dapibus lectus."
+      }
+    },
+    {
+      "introline": "Knowledge Resume",
+      "id": "knowledge",
+      "content": {
+        "heading": "Knowledge Resume",
+        "sub": "HTML5 | CSS3 | jQuery",
+        "category": "this is a code-along project designed by Brad Traversy, and coded by me under his guidance",
+        "image": "/img/Timeline.jpg",
+        "copy": "MeowBox ipsum dolor sit amet, consectetur adipiscing elit. Morbi accumsan est ornare, ultricies erat a, dapibus lectus."
+      }
+    }
+  ]
+}

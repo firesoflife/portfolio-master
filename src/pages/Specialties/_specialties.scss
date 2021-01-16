@@ -1,0 +1,133 @@
+.container {
+  position: relative;
+  margin-top: 10vh;
+  overflow: hidden;
+  height: 100%;
+}
+
+.home {
+  //  HOME SECTION A: SPECIALIZE IN
+
+  &-a {
+    width: 90%;
+    margin: 0 auto;
+    background: $color-light;
+    margin-bottom: 4rem;
+
+    &__content {
+      margin-top: 5rem;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 1.6rem;
+      text-align: center;
+    }
+    .specials {
+      & i {
+        font-size: 8rem;
+        text-align: center;
+        margin: 2rem;
+        height: 100%;
+      }
+
+      &__item {
+        height: 60rem;
+        background-color: #fff;
+        border-radius: 0 0 5px 5px;
+        box-shadow: 10px 12px 13px rgba(0, 0, 0, 0.3);
+
+        &-box {
+          margin-bottom: 3rem;
+          box-shadow: 10px 12px 13px rgba(0, 0, 0, 0.3);
+          border-radius: 4px;
+          &:hover {
+            & i {
+              cursor: pointer;
+              border-bottom: solid 2px $color-primary;
+            }
+          }
+
+          & i {
+            border-bottom: 2px solid transparent;
+            transition: border 0.6s ease-in-out;
+          }
+        }
+        &--icon-box {
+          &-odd {
+            background: $color-accent-2;
+            color: $color-secondary;
+          }
+          &-even {
+            background: $color-dark;
+            color: $color-dark-accent;
+          }
+        }
+      }
+
+      &__text-box {
+        background-color: #fff;
+        font-size: 1.2rem;
+        height: min-content;
+        padding: 0 1.4rem;
+        & h3 {
+          color: $color-dark;
+          padding-bottom: 2rem;
+        }
+        & p {
+          color: $color-dark-accent;
+          text-align: justify;
+          font-size: 1.5rem;
+          padding: 0 1rem;
+          letter-spacing: normal;
+          line-height: 2.3;
+        }
+        & ul {
+          column-count: 2;
+          margin-top: 1.4rem;
+          margin-left: 2.5rem;
+          text-align: left;
+          // padding: 0 1rem;
+          color: $color-primary;
+
+          & li {
+            margin-right: 1rem;
+          }
+
+          & li:nth-child(odd) {
+            color: $color-secondary;
+          }
+        }
+      }
+    }
+    // & .tech {
+    //   margin-top: 7rem;
+    //   height: 15rem;
+    //   display: flex;
+    //   text-align: center;
+    //   align-items: center;
+    //   justify-content: space-between;
+    //   font-size: 5rem;
+    //   color: $color-grey-dark;
+    //   padding-top: 2rem;
+
+    //   &__icons {
+    //     color: $color-grey-dark;
+    //     padding-top: 2rem;
+    //     // font-size: 5rem;
+
+    //     &:hover {
+    //       color: $color-primary;
+    //       opacity: 0.5;
+    //     }
+    //   }
+
+    //   &__title {
+    //     text-align: center;
+    //     text-transform: uppercase;
+    //     font-weight: 200;
+    //     color: $color-accent-1;
+    //     font-size: 1.5rem;
+    //     margin-top: 1rem;
+    //   }
+    // }
+  }
+}

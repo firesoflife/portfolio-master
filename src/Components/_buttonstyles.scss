@@ -1,0 +1,51 @@
+@import '../variables.scss';
+
+// General Button Style
+button,
+%btn {
+  outline: none;
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 4px;
+  padding: 1.4rem 3rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 600;
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.6);
+  color: $color-light;
+}
+
+// Header Button
+.header-btn {
+  @extend %btn;
+  position: relative;
+  background: transparent;
+  border: 2px solid $color-accent-2;
+  color: $color-light;
+  overflow: hidden;
+  font-weight: 500;
+  font-size: 1.5rem;
+
+  & span {
+    position: relative;
+    z-index: 10;
+  }
+
+  &:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 800%;
+    width: 220%;
+    background: $color-accent-2;
+    transition: all 0.7s ease-in-out;
+    transform: translateX(-98%) translateY(-1%) rotate(45deg);
+    // z-index: -10;
+  }
+
+  &:hover:after {
+    transform: translateX(-9%) translateY(-25%) rotate(45deg);
+  }
+}
