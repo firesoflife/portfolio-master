@@ -7,7 +7,7 @@
 /* ITEM LIST / CAROUSEL OF PROJECTS */
 .outer-container {
   display: flex;
-  min-width: 80vw;
+  width: 80vw;
   height: 70vh;
   margin: auto;
   border-radius: 5px;
@@ -155,7 +155,7 @@
   line-height: 3rem;
 }
 .carousel {
-  min-width: 40rem;
+  min-width: 44rem;
   display: flex;
   flex: 5;
   align-items: center;

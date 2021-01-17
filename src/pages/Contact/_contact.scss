@@ -1,20 +1,20 @@
 .home-d {
   margin-top: 10vh;
-  height: 70vh;
+
   &--body {
+    position: relative;
     display: grid;
-    // grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: 1fr 1fr;
     grid-template-areas:
-      'profile contact'
-      'form form';
+      'profile form form'
+      'contact form form';
     /************ PROFILE ***********/
     & .profile {
-      // grid-area: profile;
+      grid-area: profile;
       display: flex;
       flex-direction: column;
       justify-content: space-around;
       text-align: center;
-      object-fit: cover;
 
       &__title {
         margin-bottom: 2rem;
@@ -52,10 +52,11 @@
       flex-direction: column;
       border-radius: 10px;
       box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.3);
-
+      margin-left: 2rem;
       & h3 {
         text-align: center;
         font-size: 2rem;
+        color: $color-grey-light;
       }
       & .bottom-line-about {
         width: 12rem;
@@ -71,11 +72,19 @@
         margin-left: 5rem;
       }
       & .contact__item {
-        color: orange;
         margin: 1.4rem 0;
+
+        & ul {
+          font-size: 4rem;
+          column-count: 2;
+        }
 
         & li {
           color: $color-primary;
+        }
+
+        & li.link-tag {
+          color: $color-grey-light !important;
         }
 
         & span {
@@ -87,8 +96,6 @@
 
     & .form {
       grid-area: form;
-      display: flex;
-      // flex-direction: column;
 
       &__container {
         background: linear-gradient(
@@ -98,7 +105,7 @@
         );
         box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.3);
         border-radius: 10px;
-        height: 93%;
+        height: 80vh;
         width: 90%;
         margin: auto;
         display: flex;
@@ -186,5 +193,23 @@
     opacity: 0;
     visibility: hidden;
     transform: translateY(-6px);
+  }
+}
+
+// Submit Button
+
+button[type='submit'] {
+  // @extend %btn-shared;
+  background-color: $color-dark;
+  border: 0;
+  font-family: inherit;
+  color: $color-primary;
+  font-weight: 400;
+  letter-spacing: 0.2rem;
+  transition: all 0.4s ease-in-out;
+  margin-left: 1.5rem;
+
+  &:hover {
+    background-color: $color-dark-accent;
   }
 }

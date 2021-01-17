@@ -1,6 +1,8 @@
 import React, { Fragment } from 'react';
 
 import SectionTitle from '../../Components/SectionTitle/SectionTitle';
+import Profile from '../../Components/profile/Profile';
+import { HeaderButton } from '../../Components/HeaderButton';
 
 // import ScrollableSection from 'react-update-url-on-scroll';
 
@@ -9,28 +11,6 @@ const Contact = () => {
     <Fragment>
       <section className="home-d" id="contact" name={'contact'}>
         <div className="home-d--body">
-          {/* <!-- ----------PROFILE IMAGE ------------- --> */}
-          <div className="profile">
-            <div className="profile__title">
-              <h3>Hello there, I'm Bryan</h3>
-            </div>
-            <div className="profile__img">
-              <img src="img/profile.jpg" alt="" />
-            </div>
-            <div className="profile__tag">
-              <p>Learn more about me on the about page!</p>
-            </div>
-            <div className="profile__btn--about">
-              <a
-                href="construction.html"
-                target="_blank"
-                className="btn--about"
-              >
-                go there
-              </a>
-            </div>
-          </div>
-
           {/* <!-- -------- CONTACT & SOCIAL---------- --> */}
           <div className="contact">
             <h3>find me on the web</h3>
@@ -86,14 +66,18 @@ const Contact = () => {
                   <span> facebook</span>
                 </li>
               </a>
-              <li>... Or simply fill out the contact form</li>
             </ul>
           </div>
+          <Profile />
 
           {/* <!-- -------------CONTACT FORM --> */}
           <div className="form">
             <div className="form__container">
-              <form className="form__container--content">
+              <form
+                className="form__container--content"
+                action="https://formspree.io/f/xoqpylyp"
+                method="POST"
+              >
                 <div className="form__title">
                   <h3>Get in touch</h3>
                   <hr />
@@ -103,6 +87,7 @@ const Contact = () => {
                   <input
                     type="text"
                     className="form__input"
+                    name="name"
                     placeholder="Name"
                     id="name"
                     required
@@ -117,6 +102,7 @@ const Contact = () => {
                     className="form__input"
                     placeholder="Email"
                     type="email"
+                    name="_replyto"
                     required
                   />
                   <label for="email" className="form__label">
@@ -149,7 +135,7 @@ const Contact = () => {
                 </div>
 
                 <div className="btn-form">
-                  <button type="submit" className="">
+                  <button type="submit" value="Send" className="">
                     Send
                   </button>
                 </div>

@@ -13,11 +13,6 @@ const Profile = () => {
         <div className="profile__tag">
           <p>Learn more about me on the about page!</p>
         </div>
-        <div className="profile__btn--about">
-          <a href="construction.html" target="_blank" className="btn--about">
-            go there
-          </a>
-        </div>
       </div>
     </Fragment>
   );
