@@ -1,14 +1,11 @@
 import React, { Fragment } from 'react';
+import Footer from '../../Components/Footer/Footer';
 
-import SectionTitle from '../../Components/SectionTitle/SectionTitle';
 import Profile from '../../Components/profile/Profile';
-import { HeaderButton } from '../../Components/HeaderButton';
-
-// import ScrollableSection from 'react-update-url-on-scroll';
 
 const Contact = () => {
   return (
-    <Fragment>
+    <div id="contact">
       <section className="home-d" id="contact" name={'contact'}>
         <div className="home-d--body">
           {/* <!-- -------- CONTACT & SOCIAL---------- --> */}
@@ -144,7 +141,7 @@ const Contact = () => {
           </div>
         </div>
       </section>
-    </Fragment>
+    </div>
   );
 };
 

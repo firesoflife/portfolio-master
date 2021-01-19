@@ -1,7 +1,8 @@
 .home-d {
-  margin-top: 10vh;
+  position: relative;
 
   &--body {
+    height: 80vh;
     position: relative;
     display: grid;
     grid-template-rows: 1fr 1fr;
@@ -10,6 +11,7 @@
       'contact form form';
     /************ PROFILE ***********/
     & .profile {
+      margin-top: 10rem;
       grid-area: profile;
       display: flex;
       flex-direction: column;
@@ -44,6 +46,7 @@
     /************ CONTACT ***********/
 
     & .contact {
+      height: 36rem;
       grid-area: contact;
       margin-bottom: 4rem;
       padding: 3rem 0;
@@ -95,7 +98,9 @@
     }
 
     & .form {
+      height: 78rem;
       grid-area: form;
+      margin-top: 14rem;
 
       &__container {
         background: linear-gradient(
@@ -105,7 +110,7 @@
         );
         box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.3);
         border-radius: 10px;
-        height: 80vh;
+        height: 90%;
         width: 90%;
         margin: auto;
         display: flex;

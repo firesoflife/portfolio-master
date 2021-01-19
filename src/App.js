@@ -1,11 +1,10 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import './main.scss';
 import Header from './pages/Header/Header';
 import Navbar from './Components/Navbar/Navbar';
 import Specialties from './pages/Specialties/Specialties';
 import Projects from './pages/Projects/Projects';
 import Contact from './pages/Contact/Contact';
-import Footer from './Components/Footer/Footer';
 
 // Data File -- Projects
 import data from './data.json';
@@ -14,7 +13,7 @@ import { Switch, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
+    <Fragment>
       <Navbar />
       <Switch>
         <Route path="/home" component={Header}>
@@ -30,8 +29,7 @@ function App() {
           <Contact />
         </Route>
       </Switch>
-      <Footer />
-    </div>
+    </Fragment>
   );
 }
 

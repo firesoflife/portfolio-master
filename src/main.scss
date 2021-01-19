@@ -3,6 +3,7 @@
 @import './Components/SectionTitle/sectiontitle';
 @import './pages/Blog/blog';
 @import './pages/About/about';
+@import './Components/Footer/footerAdditional';
 @import './pages/Construction/construction';
 @import './pages/Header/header';
 @import './pages/Projects/projects';
@@ -11,7 +12,6 @@
 @import './Components/Footer/footer';
 @import './pages/Contact/contact';
 @import './Components/buttonstyles';
-
 //________ VARIABLES _________//
 $color-primary: #ff9ff3;
 $color-accent-1: #ff81ee;
@@ -27,12 +27,6 @@ $color-white: #fff;
 $color-black: #000;
 
 //_________ GLOBAL STYLES AND RESEST _________//
-#root,
-#root > div,
-body {
-  height: 100%;
-  overflow: hidden;
-}
 
 * {
   margin: 0;
@@ -41,6 +35,7 @@ body {
 }
 
 html {
+  position: relative;
   height: 100%;
   font-size: 62.5%;
   letter-spacing: 2px;

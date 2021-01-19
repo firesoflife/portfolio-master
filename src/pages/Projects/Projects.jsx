@@ -3,6 +3,7 @@ import cn from 'classnames';
 import PropTypes from 'prop-types';
 import { ReactComponent as Next } from '../../assets/chevronDown.svg';
 import { ReactComponent as Prev } from '../../assets/chevronUp.svg';
+import Footer from '../../Components/Footer/Footer';
 
 const Projects = ({ data, leadingText }) => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -129,6 +130,9 @@ const Projects = ({ data, leadingText }) => {
               Visit {data[activeIndex].content.heading}
             </a>
           </button>
+        </div>
+        <div className="footer-container-special">
+          <Footer />
         </div>
       </section>
     </div>

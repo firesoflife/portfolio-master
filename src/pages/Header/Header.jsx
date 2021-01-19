@@ -1,7 +1,6 @@
 import React, { Fragment } from 'react';
 import './_header.scss';
 import { HeaderButton } from '../../Components/HeaderButton';
-import Navbar from '../../Components/Navbar/Navbar';
 import Footer from '../../Components/Footer/Footer';
 
 const Header = () => {
@@ -23,7 +22,9 @@ const Header = () => {
               <HeaderButton />
             </div>
           </div>
-          <Footer />
+          <div className="footer-container">
+            <Footer />
+          </div>
         </header>
       </section>
     </Fragment>

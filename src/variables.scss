@@ -12,39 +12,3 @@ $color-grey-dark: #576574;
 $color-grey-text: #9b9c9d;
 $color-white: #fff;
 $color-black: #000;
-
-// SECTION TITLES
-
-@mixin sectionTitle {
-  .section__title {
-    height: 4rem;
-    justify-content: center;
-
-    &--a {
-      @extend %section-title-shared;
-      color: $color-dark;
-    }
-
-    &--b {
-      @extend %section-title-shared;
-      color: $color-grey-light;
-    }
-
-    &--bottom-line {
-      align-self: center;
-      height: 2px;
-      width: 20rem;
-      background-color: $color-primary;
-    }
-
-    &--lead {
-      display: block;
-      align-self: center;
-      max-width: 70rem;
-      margin-top: 2rem;
-      text-align: center;
-      font-size: 1.8rem;
-      color: $color-grey-light;
-    }
-  }
-}
