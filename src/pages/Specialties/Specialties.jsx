@@ -90,6 +90,7 @@ const Specialties = () => {
                         <li>• Reactjs</li>
                         <li>• MySQL</li>
                         <li>• Ruby on Rails</li>
+                        <li>• Python</li>
                       </ul>
                     </p>
                   </div>

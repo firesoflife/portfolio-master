@@ -2,6 +2,7 @@ import React, { Fragment } from 'react';
 import './main.scss';
 import Header from './pages/Header/Header';
 import Navbar from './Components/Navbar/Navbar';
+import MobileNav from './Components/mobileMenu/MobileNav';
 import Specialties from './pages/Specialties/Specialties';
 import Projects from './pages/Projects/Projects';
 import Contact from './pages/Contact/Contact';
@@ -15,6 +16,7 @@ function App() {
   return (
     <Fragment>
       <Navbar />
+      <MobileNav />
       <Switch>
         <Route path="/home" component={Header}>
           <Header />

@@ -21,7 +21,7 @@ nav {
 
   & p {
     text-transform: uppercase;
-    // color: $color-secondary;
+
     letter-spacing: 8px;
   }
 }
@@ -76,5 +76,18 @@ nav {
   transition: background-color 0.5s ease-in-out;
   &:hover {
     background-color: rgba(34, 47, 62, 0.65);
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .main-nav ul {
+    display: none;
+  }
+}
+@media screen and (max-width: 650px) {
+  .main-nav {
+    .logo {
+      margin-left: 3rem;
+    }
   }
 }

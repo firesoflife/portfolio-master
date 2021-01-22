@@ -12,6 +12,8 @@
 @import './Components/Footer/footer';
 @import './pages/Contact/contact';
 @import './Components/buttonstyles';
+@import './Components/mobileMenu/mobileMenu';
+
 //________ VARIABLES _________//
 $color-primary: #ff9ff3;
 $color-accent-1: #ff81ee;
@@ -72,3 +74,5 @@ h4 {
 img {
   width: 100%;
 }
+
+@import './media';
