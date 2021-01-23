@@ -1,7 +1,5 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import Specialties from '../../pages/Specialties/Specialties';
-import MobileNavbar from '../mobileMenu/_mobileMenu.scss';
 import './_navbar.scss';
 
 const Navbar = () => {
@@ -14,14 +12,14 @@ const Navbar = () => {
       </div>
       <ul className="main-nav__items">
         <li>
-          {/* <a
-            href="/"
+          <NavLink
+            to="/"
             className="main-nav__item"
             activeClassName="active"
             smooth="true"
             spy="true"
             duration={1000}
-          ></a> */}
+          ></NavLink>
           <NavLink
             to="/home"
             className="main-nav__item"

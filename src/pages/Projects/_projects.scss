@@ -1,4 +1,5 @@
 .background {
+  position: relative;
   display: flex;
   height: 100vh;
   background: $color-grey-text;
@@ -11,17 +12,18 @@
   height: 70vh;
   margin: auto;
   border-radius: 5px;
-  box-shadow: 5px 3px 10px rgba(0, 0, 0, 0.8);
+  // box-shadow: 5px 3px 10px rgba(0, 0, 0, 0.8);
   > div {
     flex: 1;
     padding: 1rem;
   }
   .carousel-wrapper {
+    margin-right: 8rem;
     min-width: min-content;
-    background: $color-dark-accent;
+    // background: $color-dark-accent;
     display: flex;
     flex-direction: column;
-    padding: 8rem 3rem;
+
     font-weight: 700;
     font-size: 2rem;
     color: $color-primary;
@@ -35,6 +37,7 @@
     color: $color-grey-light;
     justify-content: center;
     padding: 10rem;
+    box-shadow: 5px 5px 8px 2px rgba(0, 0, 0, 0.8);
   }
 }
 .content {
@@ -118,14 +121,15 @@
   border-radius: 6rem;
   background: transparent;
   border: none;
+  box-shadow: none;
   &:hover {
     path {
       fill: $color-accent-1;
     }
   }
   svg {
-    height: 4rem;
-    width: 4rem;
+    height: 7rem;
+    width: 7rem;
   }
   path {
     fill: $color-accent-2;
@@ -135,7 +139,7 @@
 .carousel-item {
   font-weight: 700;
   font-size: 2rem;
-  color: $color-primary;
+  color: $color-accent-1;
   line-height: 3rem;
   position: absolute;
   background: none;
@@ -155,6 +159,7 @@
   line-height: 3rem;
 }
 .carousel {
+  margin: 4rem 0;
   min-width: 44rem;
   display: flex;
   flex: 5;
@@ -192,7 +197,7 @@
     background: linear-gradient(
       0deg,
       hsla(0, 0%, 100%, 0) 0%,
-      hsla(213, 29%, 31%) 100%
+      hsla(210, 1%, 61%) 100%
     );
   }
   &::after {
@@ -205,7 +210,7 @@
     bottom: 0;
     background: linear-gradient(
       0deg,
-      hsla(213, 29%, 31%) 0%,
+      hsla(210, 1%, 61%) 0%,
       hsla(0, 0%, 100%, 0) 100%
     );
   }
@@ -214,3 +219,39 @@
 .carousel-item {
   box-shadow: none;
 }
+
+// @media screen and (max-width: 1378px) {
+//   .background {
+//   }
+
+//   .outer-container {
+//     height: auto;
+//   }
+
+//   .outer-container .content {
+//     background-color: $color-grey-text;
+//     color: $color-dark-accent;
+//     padding: 0;
+//     box-shadow: none;
+
+//     & .subtitles h3 {
+//       color: $color-dark-accent;
+//     }
+//   }
+
+//   .outer-container .carousel-wrapper {
+//     margin: 0;
+//   }
+// }
+
+// @media screen and (max-width: 1100px) {
+//   .mobile-nav {
+//     display: none;
+//   }
+// }
+
+// @media screen and (max-width: 1023px) {
+//   .outer-container {
+//     display: block;
+//   }
+// }

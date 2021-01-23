@@ -84,6 +84,7 @@ const Specialties = () => {
                     <p>
                       <ul>
                         <li>• Angular</li>
+                        <li>• Svelte</li>
                         <li>• MongoDB</li>
                         <li>• Vue.js</li>
                         <li>• Javascript</li>

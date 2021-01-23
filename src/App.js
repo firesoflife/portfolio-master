@@ -21,6 +21,9 @@ function App() {
         <Route path="/home" component={Header}>
           <Header />
         </Route>
+        <Route exact path="/" component={Header}>
+          <Header />
+        </Route>
         <Route path="/specialties" component={Specialties}>
           <Specialties />
         </Route>

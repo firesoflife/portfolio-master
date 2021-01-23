@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react';
+import { NavLink } from 'react-router-dom';
 import '../mobileMenu/_mobileMenu.scss';
 
 const MobileNavbar = () => {
@@ -14,19 +15,19 @@ const MobileNavbar = () => {
             <div>
               <ul>
                 <li>
-                  <a href="index.html">Home</a>
+                  <NavLink to="/home">Home</NavLink>
                 </li>
                 <li>
-                  <a href="#specialties">Specialties</a>
+                  <NavLink to="/specialties">Specialties</NavLink>
                 </li>
                 <li>
-                  <a href="#projects">Projects</a>
+                  <NavLink to="/projects">Projects</NavLink>
                 </li>
                 <li>
-                  <a href="#contact">Contact</a>
+                  <NavLink to="/contact">Contact</NavLink>
                 </li>
                 <li>
-                  <a href="construction.html">About</a>
+                  <NavLink to="/construction.html">About</NavLink>
                 </li>
                 <li>
                   <a href="construction.html">Blog</a>
