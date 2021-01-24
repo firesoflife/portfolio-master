@@ -32,7 +32,8 @@
         "sub": "Wordpress | Custom CSS",
         "category": "this is a wordpress theme-based project completed as part of my OpenClassrooms course-work.",
         "image": "/img/Delta.jpg",
-        "copy": "HOrse ipsum dolor sit amet, consectetur adipiscing elit. Morbi accumsan est ornare, ultricies erat a, dapibus lectus."
+        "copy": "HOrse ipsum dolor sit amet, consectetur adipiscing elit. Morbi accumsan est ornare, ultricies erat a, dapibus lectus.",
+        "link": "/Boston/index.html"
       }
     },
     {

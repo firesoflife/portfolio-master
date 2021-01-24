@@ -56,8 +56,8 @@ const Navbar = () => {
           </NavLink>
         </li>
         <li>
-          <a
-            href="contact"
+          <NavLink
+            to="contact"
             className="main-nav__item"
             activeClassName="active"
             spy="true"
@@ -65,30 +65,29 @@ const Navbar = () => {
             duration={1000}
           >
             Contact
-          </a>
+          </NavLink>
         </li>
         <li>
-          <a
-            href="/construction"
+          <NavLink
+            to="about"
             className="main-nav__item"
             activeClassName="active"
             spy="true"
             smooth="true"
           >
             About
-          </a>
+          </NavLink>
         </li>
         <li>
-          <a
-            href="/blog"
-            // component={Blog}
+          <NavLink
+            to="blog"
             className="main-nav__item"
             activeClassName="active"
             spy="true"
             smooth="true"
           >
             Blog
-          </a>
+          </NavLink>
         </li>
       </ul>
     </nav>

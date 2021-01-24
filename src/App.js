@@ -6,6 +6,7 @@ import MobileNav from './Components/mobileMenu/MobileNav';
 import Specialties from './pages/Specialties/Specialties';
 import Projects from './pages/Projects/Projects';
 import Contact from './pages/Contact/Contact';
+import Construction from './pages/Construction/Construction';
 
 // Data File -- Projects
 import data from './data.json';
@@ -32,6 +33,12 @@ function App() {
         </Route>
         <Route path="/contact" component={Contact}>
           <Contact />
+        </Route>
+        <Route path="/about" component={Construction}>
+          <Construction />
+        </Route>
+        <Route path="/blog" component={Construction}>
+          <Construction />
         </Route>
       </Switch>
     </Fragment>
