@@ -134,7 +134,6 @@
 // Projects
 @media screen and (max-width: 1378px) {
   .background {
-    height: 100%;
     padding: 5rem 0 15rem 0;
   }
 
@@ -162,14 +161,44 @@
   }
 }
 
-@media screen and (max-width: 1100px) {
-  .background {
-    // height: 100%;
+@media screen and (max-width: 1023px) {
+  .outer-container {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding-top: 10rem;
+    justify-content: center;
+  }
+  .carousel-wrapper {
+    justify-content: center;
+    max-width: min-content;
+    margin-left: 10rem;
+  }
+  .carousel {
+    display: none;
+  }
+
+  .carousel-button.next {
+    display: none;
+  }
+
+  .carousel-button.next.mobile {
+    display: block;
   }
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 712px) {
+  .background {
+    height: min-content;
+  }
+}
+
+@media screen and (max-width: 600px) {
   .outer-container {
-    display: block;
+    padding-top: 0;
+  }
+
+  .outer-container .carousel-wrapper {
+    margin: auto;
   }
 }

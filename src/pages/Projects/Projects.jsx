@@ -124,7 +124,7 @@ const Projects = ({ data, leadingText }) => {
             alt={data[activeIndex].content.introline}
           />
           <h4>{data[activeIndex].content.category}</h4>
-          {/* <p>{data[activeIndex].content.copy}</p> */}
+
           <button className="project-link">
             <a href={data[activeIndex].content.link}>
               Visit {data[activeIndex].content.heading}
@@ -134,6 +134,13 @@ const Projects = ({ data, leadingText }) => {
         <div className="footer-container-special">
           <Footer />
         </div>
+        <button
+          type="button"
+          className="carousel-button next mobile"
+          onClick={() => handleClick('next')}
+        >
+          <Next />
+        </button>
       </section>
     </div>
   );
