@@ -1,4 +1,4 @@
-import React, { Fragment, useState } from 'react';
+import React, { useState } from 'react';
 import cn from 'classnames';
 import PropTypes from 'prop-types';
 import { ReactComponent as Next } from '../../assets/chevronDown.svg';
@@ -66,7 +66,7 @@ const Projects = ({ data, leadingText }) => {
   const shuffleThreshold = halfwayIndex * itemHeight;
 
   // Used to determine which items should be visible (prevents ghost transitions)
-  const visibleStyleThreshold = shuffleThreshold / 2;
+  // const visibleStyleThreshold = shuffleThreshold / 2;
 
   return (
     <div className="background">
