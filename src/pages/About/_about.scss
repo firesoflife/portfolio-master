@@ -1,0 +1,46 @@
+.about-background {
+  width: 100%;
+
+  background-color: $color-dark;
+}
+
+.container {
+  padding: 10vh 0;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.page-title {
+  display: flex;
+  max-width: 70%;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 5rem;
+  height: 14rem;
+  text-align: center;
+  border-radius: 20rem;
+  background: $color-secondary;
+
+  h1.about-title {
+    @include textClipGradient;
+  }
+}
+
+.info-container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+
+  .gallery {
+    margin: 4rem;
+    max-width: 90%;
+    background: orange;
+    flex: 1 1 40rem;
+  }
+
+  .bio {
+    flex: 2 1 40rem;
+    background-color: #fff;
+  }
+}

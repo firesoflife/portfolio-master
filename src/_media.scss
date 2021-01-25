@@ -23,6 +23,7 @@
   }
 }
 
+// Home - Footer  at 750px
 @media screen and (max-width: 750px) {
   footer {
     align-items: center;
@@ -47,6 +48,7 @@
   }
 }
 
+// Home - Footer at 475px
 @media screen and (max-width: 475px) {
   #home .header-home .header-content {
     margin-top: 50%;
@@ -84,6 +86,10 @@
 // Contacts Page
 
 @media screen and (max-width: 1080px) {
+  .home-d--body {
+    height: 100%;
+  }
+
   .home-d--body .form__container--content {
     margin: 5rem;
   }

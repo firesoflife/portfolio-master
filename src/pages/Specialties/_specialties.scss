@@ -83,14 +83,16 @@
           }
 
           h4 {
-            text-align: center;
+            text-align: left;
+            text-decoration: underline;
           }
         }
 
         & p {
           margin: 2rem 0 0 1rem;
           font-size: 1.6rem;
-          font-weight: 600;
+          font-weight: 500;
+          line-height: 2.5rem;
           color: $color-grey-dark;
         }
       }

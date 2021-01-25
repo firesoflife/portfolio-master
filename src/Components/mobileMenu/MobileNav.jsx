@@ -27,10 +27,10 @@ const MobileNavbar = () => {
                   <NavLink to="/contact">Contact</NavLink>
                 </li>
                 <li>
-                  <NavLink to="/construction.html">About</NavLink>
+                  <NavLink to="/about">About</NavLink>
                 </li>
                 <li>
-                  <a href="construction.html">Blog</a>
+                  <NavLink to="/blog">Blog</NavLink>
                 </li>
               </ul>
             </div>

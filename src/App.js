@@ -6,6 +6,7 @@ import MobileNav from './Components/mobileMenu/MobileNav';
 import Specialties from './pages/Specialties/Specialties';
 import Projects from './pages/Projects/Projects';
 import Contact from './pages/Contact/Contact';
+import About from './pages/About/About';
 import Construction from './pages/Construction/Construction';
 
 // Data File -- Projects
@@ -34,8 +35,8 @@ function App() {
         <Route path="/contact" component={Contact}>
           <Contact />
         </Route>
-        <Route path="/about" component={Construction}>
-          <Construction />
+        <Route path="/about" component={About}>
+          <About />
         </Route>
         <Route path="/blog" component={Construction}>
           <Construction />
