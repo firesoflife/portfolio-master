@@ -1,6 +1,7 @@
 .about-background {
+  position: absolute;
   width: 100%;
-
+  height: 100%;
   background-color: $color-dark;
 }
 
@@ -28,19 +29,147 @@
 }
 
 .info-container {
+  position: relative;
   display: flex;
-  height: 100%;
+
   width: 100%;
+  background: $color-dark;
 
   .gallery {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 10%;
+    left: 4rem;
     margin: 4rem;
-    max-width: 90%;
-    background: orange;
-    flex: 1 1 40rem;
+    min-height: 47rem;
+    min-width: 47rem;
+    align-self: start;
+    background: linear-gradient(312deg, #ee55889c, #e58e26);
+    flex: 1 2 40rem;
+    border-radius: 50%;
+    padding: 1rem;
+
+    .tag {
+      margin-left: 0.5rem;
+    }
+    .mirror {
+      transform: rotateX(225deg) skew(-15deg);
+      color: rgba(0, 0, 0, 0.445);
+      background: rgba(192, 192, 192, 0.459);
+      padding: 0.3rem 0.8rem;
+      box-shadow: 1px -8px 11px 3px rgba(0, 0, 0, 0.445);
+    }
   }
 
   .bio {
-    flex: 2 1 40rem;
-    background-color: #fff;
+    flex: 8 1 40rem;
+    margin: 4rem;
+    background-color: tomato;
+    border-radius: 20rem;
+    height: 400rem;
+    padding: 10rem;
+
+    sub {
+      font-size: 1.5rem;
+      color: papayawhip;
+    }
+
+    h2 {
+      font-size: 4rem;
+      text-align: center;
+      margin-bottom: 1rem;
+      color: $color-light;
+    }
+
+    .about-underline {
+      background-color: pink;
+      height: 3px;
+      width: 100%;
+      margin: 5rem 0;
+    }
+
+    h4 {
+      margin-top: 6rem;
+      font-size: 2.6rem;
+      margin-bottom: 1.5rem;
+      color: #2f3d63;
+    }
+
+    p {
+      margin-top: 1.2rem;
+      font-size: 2rem;
+      color: $color-light;
+      line-height: 2.7rem;
+    }
+
+    h5 {
+      text-align: center;
+      margin-top: 4rem;
+      font-size: 2.5rem;
+      font-weight: 400;
+      font-style: italic;
+      color: lemonchiffon;
+    }
+
+    ul {
+      margin-top: 3rem;
+      display: flex;
+      flex-wrap: wrap;
+      font-size: 1.6rem;
+      justify-content: center;
+      color: #006266;
+
+      li {
+        padding: 1rem;
+      }
+    }
+
+    ul.learning {
+      li {
+        // text-align: center;
+        display: flex;
+        flex-direction: column;
+        padding: 1rem 3rem;
+        line-height: 2rem;
+
+        sub {
+          opacity: 0.5;
+        }
+      }
+    }
+  }
+}
+
+.past-work {
+  .work-section {
+    margin: 6rem 0;
+  }
+
+  .work-title {
+    color: $color-light;
+    font-size: 2rem;
+  }
+
+  .work-details {
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+
+    .company-name {
+      color: $color-light;
+      opacity: 0.7;
+      margin-top: 0;
+    }
+    .timeframe {
+      font-style: italic;
+      margin-top: 0;
+      opacity: 0.7;
+    }
+  }
+  p.lead {
+    margin-top: 0.4rem;
+    color: #006266;
+    font-size: 1.6rem;
   }
 }
