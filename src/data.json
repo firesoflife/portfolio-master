@@ -21,7 +21,7 @@
         "category": "this site was built as part of my course-work in the Fullstack Developer Path for OpenClassrooms",
         "image": "/img/Boston.jpg",
         "copy": "Cat ipsum dolor sit amet, consectetur adipiscing elit. Morbi accumsan est ornare, ultricies erat a, dapibus lectus.",
-        "link": "/Boston/index.html"
+        "link": "https://breatheinthislife.com/Boston/index.html"
       }
     },
     {
@@ -33,7 +33,7 @@
         "category": "this is a wordpress theme-based project completed as part of my OpenClassrooms course-work.",
         "image": "/img/Delta.jpg",
         "copy": "HOrse ipsum dolor sit amet, consectetur adipiscing elit. Morbi accumsan est ornare, ultricies erat a, dapibus lectus.",
-        "link": "/Boston/index.html"
+        "link": "https://dev-mountain-calm-realty.pantheonsite.io/"
       }
     },
     {
@@ -44,7 +44,8 @@
         "sub": "HTML5 | CSS3 | Bootstrap | PHP",
         "category": "this is a code-along project designed by Drew Ryan, and coded by me under his guidance",
         "image": "/img/Nuno.jpg",
-        "copy": "MeowBox ipsum dolor sit amet, consectetur adipiscing elit. Morbi accumsan est ornare, ultricies erat a, dapibus lectus."
+        "copy": "MeowBox ipsum dolor sit amet, consectetur adipiscing elit. Morbi accumsan est ornare, ultricies erat a, dapibus lectus.",
+        "link": "https://breatheinthislife.com/Nuno/index.html"
       }
     },
     {
@@ -55,7 +56,8 @@
         "sub": "HTML5 | CSS3 | UX/UI Design",
         "category": "this is a code-along project designed by Jonas Schmedtmann, and coded by me, under his guidance",
         "image": "/img/omnifood.jpg",
-        "copy": "MeowBox ipsum dolor sit amet, consectetur adipiscing elit. Morbi accumsan est ornare, ultricies erat a, dapibus lectus."
+        "copy": "MeowBox ipsum dolor sit amet, consectetur adipiscing elit. Morbi accumsan est ornare, ultricies erat a, dapibus lectus.",
+        "link": "https://breatheinthislife.com/Omnifood/index.html"
       }
     },
     {
@@ -66,18 +68,20 @@
         "sub": "HTML5 | CSS3 | UX/UI Design",
         "category": "this is a code-along project designed by Jonas Schmedtmann, and coded by me, under his guidance",
         "image": "/img/natours.jpg",
-        "copy": "MeowBox ipsum dolor sit amet, consectetur adipiscing elit. Morbi accumsan est ornare, ultricies erat a, dapibus lectus."
+        "copy": "MeowBox ipsum dolor sit amet, consectetur adipiscing elit. Morbi accumsan est ornare, ultricies erat a, dapibus lectus.",
+        "link": "https://breatheinthislife.com/Natours/index.html"
       }
     },
     {
-      "introline": "Trello",
-      "id": "trello",
+      "introline": "Trillo",
+      "id": "trillo",
       "content": {
         "heading": "Trello",
         "sub": "HTML5 | CSS3 | UX/UI Design",
         "category": "this is a code-along project designed by Jonas Schmedtmann, and coded by me, under his guidance",
         "image": "/img/Trillo.jpg",
-        "copy": "MeowBox ipsum dolor sit amet, consectetur adipiscing elit. Morbi accumsan est ornare, ultricies erat a, dapibus lectus."
+        "copy": "MeowBox ipsum dolor sit amet, consectetur adipiscing elit. Morbi accumsan est ornare, ultricies erat a, dapibus lectus.",
+        "link": "https://breatheinthislife.com/Natours/index.html"
       }
     },
     {
@@ -88,7 +92,8 @@
         "sub": "HTML5 | CSS3 | jQuery",
         "category": "this is a code-along project designed by Brad Traversy, and coded by me under his guidance",
         "image": "/img/Timeline.jpg",
-        "copy": "MeowBox ipsum dolor sit amet, consectetur adipiscing elit. Morbi accumsan est ornare, ultricies erat a, dapibus lectus."
+        "copy": "MeowBox ipsum dolor sit amet, consectetur adipiscing elit. Morbi accumsan est ornare, ultricies erat a, dapibus lectus.",
+        "link": "https://breatheinthislife.com/TimeLine/index.html"
       }
     }
   ]
