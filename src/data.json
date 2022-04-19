@@ -31,7 +31,7 @@
       "content": {
         "heading": "Boulder Cyclocross Race",
         "sub": "React | Rails | Custom CSS | Javascript",
-        "category": "An OpenClassrooms project to practice using React and Rails as a back-end for datat fetching.",
+        "category": "Original coursework OpenClassrooms project built in React with Rails as a back-end for datat fetching.",
         "image": "/img/race.jpg",
         "copy": "Cat ipsum dolor sit amet, consectetur adipiscing elit. Morbi accumsan est ornare, ultricies erat a, dapibus lectus.",
         "link": "https://boulder-bike.netlify.app"
