@@ -13,6 +13,31 @@
       }
     },
     {
+      "introline": "M Woodworks",
+      "id": "mwoodworks",
+      "content": {
+        "heading": "M Woodworks Carpentry",
+        "sub": "React | Rails | TailwindCSS",
+        "category": "A simple landing page and gallery built for a friends carpentry business",
+        "image": "/img/mwoodworks.jpg",
+        "copy": "Cat ipsum dolor sit amet, consectetur adipiscing elit. Morbi accumsan est ornare, ultricies erat a, dapibus lectus.",
+        "link": "https://mwoodworks.ca"
+      }
+    },
+
+    {
+      "introline": "Bike Race Promo",
+      "id": "bikerace",
+      "content": {
+        "heading": "Boulder Cyclocross Race",
+        "sub": "React | Rails | Custom CSS | Javascript",
+        "category": "An OpenClassrooms project to practice using React and Rails as a back-end for datat fetching.",
+        "image": "/img/race.jpg",
+        "copy": "Cat ipsum dolor sit amet, consectetur adipiscing elit. Morbi accumsan est ornare, ultricies erat a, dapibus lectus.",
+        "link": "https://boulder-bike.netlify.app"
+      }
+    },
+    {
       "introline": "the Film Festival",
       "id": "boston",
       "content": {
@@ -32,7 +57,7 @@
         "sub": "Wordpress | Custom CSS",
         "category": "this is a wordpress theme-based project completed as part of my OpenClassrooms course-work.",
         "image": "/img/Delta.jpg",
-        "copy": "HOrse ipsum dolor sit amet, consectetur adipiscing elit. Morbi accumsan est ornare, ultricies erat a, dapibus lectus.",
+        "copy": "Horse ipsum dolor sit amet, consectetur adipiscing elit. Morbi accumsan est ornare, ultricies erat a, dapibus lectus.",
         "link": "https://dev-mountain-calm-realty.pantheonsite.io/"
       }
     },
