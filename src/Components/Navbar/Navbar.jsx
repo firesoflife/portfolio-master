@@ -4,34 +4,34 @@ import './_navbar.scss';
 
 const Navbar = () => {
   return (
-    <nav id="main-nav" className="main-nav solid">
-      <div className="logo">
+    <nav id='main-nav' className='main-nav solid'>
+      <div className='logo'>
         <h2>Bryan Goertz</h2>
         <hr />
         <p>I make web stuff</p>
       </div>
-      <ul className="main-nav__items">
+      <ul className='main-nav__items'>
         <li>
           <NavLink
-            to="/"
-            className="main-nav__item"
-            activeClassName="active"
-            smooth="true"
-            spy="true"
+            to='/'
+            className='main-nav__item'
+            activeClassName='active'
+            smooth='true'
+            spy='true'
             duration={1000}
           ></NavLink>
           <NavLink
-            to="/home"
-            className="main-nav__item"
-            activeClassName="active"
-            smooth="true"
-            spy="true"
+            to='/home'
+            className='main-nav__item'
+            activeClassName='active'
+            smooth='true'
+            spy='true'
             duration={1000}
           >
             Home
           </NavLink>
         </li>
-        <li>
+        {/* <li>
           <NavLink
             to="/specialties"
             activeClassName="active"
@@ -42,14 +42,14 @@ const Navbar = () => {
           >
             Specialties
           </NavLink>
-        </li>
+        </li> */}
         <li>
           <NavLink
-            to="projects"
-            className="main-nav__item"
-            activeClassName="active"
-            spy="true"
-            smooth="true"
+            to='projects'
+            className='main-nav__item'
+            activeClassName='active'
+            spy='true'
+            smooth='true'
             duration={1000}
           >
             Projects
@@ -57,11 +57,11 @@ const Navbar = () => {
         </li>
         <li>
           <NavLink
-            to="contact"
-            className="main-nav__item"
-            activeClassName="active"
-            spy="true"
-            smooth="true"
+            to='contact'
+            className='main-nav__item'
+            activeClassName='active'
+            spy='true'
+            smooth='true'
             duration={1000}
           >
             Contact
@@ -69,22 +69,22 @@ const Navbar = () => {
         </li>
         <li>
           <NavLink
-            to="about"
-            className="main-nav__item"
-            activeClassName="active"
-            spy="true"
-            smooth="true"
+            to='about'
+            className='main-nav__item'
+            activeClassName='active'
+            spy='true'
+            smooth='true'
           >
             About
           </NavLink>
         </li>
         <li>
           <NavLink
-            to="blog"
-            className="main-nav__item"
-            activeClassName="active"
-            spy="true"
-            smooth="true"
+            to='blog'
+            className='main-nav__item'
+            activeClassName='active'
+            spy='true'
+            smooth='true'
           >
             Blog
           </NavLink>
