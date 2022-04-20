@@ -69,26 +69,26 @@ const Projects = ({ data, leadingText }) => {
   // const visibleStyleThreshold = shuffleThreshold / 2;
 
   return (
-    <div className="background">
-      <section className="outer-container">
-        <div className="carousel-wrapper">
+    <div className='background'>
+      <section className='outer-container'>
+        <div className='carousel-wrapper'>
           <button
-            type="button"
-            className="carousel-button prev"
+            type='button'
+            className='carousel-button prev'
             onClick={() => handleClick('prev')}
           >
             <Prev />
           </button>
 
-          <div className="carousel">
-            <div className="leading-text">
+          <div className='carousel'>
+            <div className='leading-text'>
               <p>{leadingText}</p>
             </div>
-            <div className="slides">
-              <div className="carousel-inner">
+            <div className='slides'>
+              <div className='carousel-inner'>
                 {data.map((item, i) => (
                   <button
-                    type="button"
+                    type='button'
                     onClick={() => setActiveIndex(i)}
                     className={cn('carousel-item', {
                       active: activeIndex === i,
@@ -105,18 +105,18 @@ const Projects = ({ data, leadingText }) => {
             </div>
           </div>
           <button
-            type="button"
-            className="carousel-button next"
+            type='button'
+            className='carousel-button next'
             onClick={() => handleClick('next')}
           >
             <Next />
           </button>
         </div>
 
-        <div className="content">
+        <div className='content'>
           <h2>{data[activeIndex].content.heading}</h2>
-          <div className="underline"></div>
-          <div className="subtitles">
+          <div className='underline'></div>
+          <div className='subtitles'>
             <h3>{data[activeIndex].content.sub}</h3>
           </div>
           <img
@@ -124,19 +124,24 @@ const Projects = ({ data, leadingText }) => {
             alt={data[activeIndex].content.introline}
           />
           <h4>{data[activeIndex].content.category}</h4>
-
-          <button className="project-link">
+          <button className='project-link'>
             <a href={data[activeIndex].content.link}>
               Visit {data[activeIndex].content.heading}
             </a>
           </button>
+
+          <div className='project-link git-link'>
+            <a href={data[activeIndex].content.github}>
+              See {data[activeIndex].content.heading} on GitHub.
+            </a>
+          </div>
         </div>
-        <div className="footer-container-special">
+        <div className='footer-container-special'>
           <Footer />
         </div>
         <button
-          type="button"
-          className="carousel-button next mobile"
+          type='button'
+          className='carousel-button next mobile'
           onClick={() => handleClick('next')}
         >
           <Next />
